@@ -1,0 +1,5 @@
+# Ignore Sources folder
+Sources/
+
+# macOS
+.DS_Store

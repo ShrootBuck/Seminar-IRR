@@ -1,0 +1,8 @@
+#!/bin/bash
+# Pre-commit hook to ensure IWA.pdf is up to date
+
+echo "Running compile.sh to update IWA.pdf..."
+./compile.sh
+
+# Stage the updated PDF
+git add IWA.pdf
