@@ -1,8 +1,8 @@
 #!/bin/bash
-# Pre-commit hook to ensure IWA.pdf is up to date
+# Pre-commit hook to ensure IRR.pdf is up to date
 
-echo "Running compile.sh to update IWA.pdf..."
+echo "Running compile.sh to update IRR.pdf..."
 ./compile.sh
 
 # Stage the updated PDF
-git add IWA.pdf
+git add IRR.pdf
